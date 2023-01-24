@@ -1,0 +1,7 @@
+ SqlConnection cn = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=D:\Yash\Yash\Yash\bin\Yash.mdf;Integrated Security=True;User Instance=True");
+            cn.Open();
+            String sql = "insert into mytable values('" + textBox1.Text + "','" + textBox2.Text + "')";
+            SqlCommand cmd = new SqlCommand(sql, cn);
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Inserted");
+            cn.Close();
