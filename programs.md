@@ -1,9 +1,6 @@
-//Program To Change Background Color 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+# 1. Program To Change Bg Color And Foreground Color
 
+```
 namespace BgColor_Change
 {
     class Program
@@ -22,8 +19,8 @@ namespace BgColor_Change
         }
     }
 }
+```
 
-
-Output 
+## Output 
 
 ![first](https://user-images.githubusercontent.com/112624754/215940665-251ba994-66a7-43df-bb52-57d5520a3256.png)
