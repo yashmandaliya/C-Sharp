@@ -1,3 +1,4 @@
+//Program To Change Background Color 
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,3 +22,8 @@ namespace BgColor_Change
         }
     }
 }
+
+
+Output 
+
+![first](https://user-images.githubusercontent.com/112624754/215940665-251ba994-66a7-43df-bb52-57d5520a3256.png)
