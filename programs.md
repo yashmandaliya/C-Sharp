@@ -91,3 +91,56 @@ namespace BgColor_Change
 ## Output 
 
 ![first](https://user-images.githubusercontent.com/112624754/215940665-251ba994-66a7-43df-bb52-57d5520a3256.png)
+
+# 3. Add Image In Form...
+```
+namespace Demo
+{
+    public partial class Registration : Form
+    {
+        public Registration()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            OpenFileDialog open = new OpenFileDialog();
+            open.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp)|*.jpg; *.jpeg; *.gif; *.bmp";
+            if (open.ShowDialog() == DialogResult.OK)
+            {
+                pictureBox1.Image = new Bitmap(open.FileName);
+                DialogResult dialogResult = MessageBox.Show("Can You Change The Image ??", "Picture Box", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    OpenFileDialog open1 = new OpenFileDialog();
+                    open1.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp)|*.jpg; *.jpeg; *.gif; *.bmp";
+                    if (open1.ShowDialog() == DialogResult.OK)
+                    {
+                        pictureBox1.Image = new Bitmap(open1.FileName);
+                    }
+                }   
+                else 
+                {
+                    MessageBox.Show("Thank You !!");
+                }
+
+            }
+
+        }
+    }
+}
+```
+## Output:-
+
+![File1](https://user-images.githubusercontent.com/112624754/216746545-ad5549e3-1dc2-45da-8329-e1997260b74c.png)
+
+
+
+
