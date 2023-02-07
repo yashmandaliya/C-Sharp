@@ -83,3 +83,31 @@ namespace SizeOf
 ## Output:-
 ![3](https://user-images.githubusercontent.com/112624754/217142776-fbcb23c7-d470-4fc3-9aac-23e3b3b5008d.png)
 
+# 4) Get Value From The User And Sum Of Two Value
+```
+
+
+namespace GetValueFromTheUser
+{     
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i, j, sum;
+            Console.Write("Enter First Value:-");
+            i = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter Second Value:-");
+            j = Convert.ToInt32(Console.ReadLine());
+            sum = i+j;
+            Console.WriteLine("Sum :-" + sum);
+            Console.ReadKey();
+        }
+    }
+}
+
+```
+
+
+## Output:-
+
+![4](https://user-images.githubusercontent.com/112624754/217144864-deb695cf-9fb6-451a-9280-576f007dc972.png)
