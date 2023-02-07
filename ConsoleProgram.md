@@ -58,4 +58,28 @@ namespace RectangleApplication
 ## Output:-
 ![2](https://user-images.githubusercontent.com/112624754/217141787-e636b8b5-137f-42fb-b2f3-c1f9766ade1a.png)
 
+# 3) Size Of
+```
+
+namespace SizeOf
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Size Of Integer Is:-       " + sizeof(int));
+            Console.WriteLine("Size Of Integer-16 Is:-    " + sizeof(Int16));
+            Console.WriteLine("Size Of Integer-32 Is:-    " + sizeof(Int32));
+            Console.WriteLine("Size Of Integer-64 Is:-    " + sizeof(Int64));
+            Console.WriteLine("Size Of Integer-Float Is:- " + sizeof(float));
+            Console.WriteLine("Size Of Integer-Double Is:-" + sizeof(double));
+            Console.WriteLine("Size Of Integer-Char Is:-  " + sizeof(char));
+            Console.ReadLine();
+        }
+    }
+}
+
+```
+## Output:-
+![3](https://user-images.githubusercontent.com/112624754/217142776-fbcb23c7-d470-4fc3-9aac-23e3b3b5008d.png)
 
