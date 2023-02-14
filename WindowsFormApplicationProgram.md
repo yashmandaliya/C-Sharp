@@ -34,7 +34,6 @@
 # Step:-6 
 ## Output 1
 ![Out](https://user-images.githubusercontent.com/112624754/218632437-f71332da-56e6-4637-8fbf-0968afc14eea.png)
-# Step:-7
 ## Output 2
 ![Out2](https://user-images.githubusercontent.com/112624754/218632442-f9a646da-8131-4849-aa8d-00607807d0d8.png)
 
