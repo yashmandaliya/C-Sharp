@@ -1,0 +1,10 @@
+D:\Yash\Windows\AutoTextBox_Popup\AutoTextBox_Popup\bin\Debug\AutoTextBox_Popup.exe
+D:\Yash\Windows\AutoTextBox_Popup\AutoTextBox_Popup\bin\Debug\AutoTextBox_Popup.pdb
+D:\Yash\Windows\AutoTextBox_Popup\AutoTextBox_Popup\obj\x86\Debug\AutoTextBox_Popup.Form1.resources
+D:\Yash\Windows\AutoTextBox_Popup\AutoTextBox_Popup\obj\x86\Debug\AutoTextBox_Popup.Properties.Resources.resources
+D:\Yash\Windows\AutoTextBox_Popup\AutoTextBox_Popup\obj\x86\Debug\AutoTextBox_Popup.csproj.GenerateResource.Cache
+D:\Yash\Windows\AutoTextBox_Popup\AutoTextBox_Popup\obj\x86\Debug\AutoTextBox_Popup.exe
+D:\Yash\Windows\AutoTextBox_Popup\AutoTextBox_Popup\obj\x86\Debug\AutoTextBox_Popup.pdb
+D:\Yash\Windows\AutoTextBox_Popup\AutoTextBox_Popup\bin\Debug\bin\Debug\Database1.mdf
+D:\Yash\Windows\AutoTextBox_Popup\AutoTextBox_Popup\bin\Debug\bin\Debug\Database1_log.ldf
+D:\Yash\Windows\AutoTextBox_Popup\AutoTextBox_Popup\bin\Debug\AutoTextBox_Popup.exe.config
